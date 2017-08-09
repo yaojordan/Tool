@@ -3,8 +3,7 @@
 
 #!/bin/bash
 
-if [ $# -ne 1 ]; then
-
+if [ $# -ne 1 ]; then  
 	echo "usage: $0 filename"
 else
 	touch $1.sh
