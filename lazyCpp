@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+touch $1.cpp
+
+echo -e "#include <iostream> \n" >> $1.cpp
+echo "using namespace std;" >> $1.cpp
+echo -e "\n int main(void){" >> $1.cpp
+#-e 讓換行有動作
+echo "	cout << "Hello World!" << emdl;" >> $1.cpp
+echo "}" >> $1.cpp
